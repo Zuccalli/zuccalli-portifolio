@@ -1,0 +1,200 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+/*body {
+    background-image: url("images/backgroun-1.mp4");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+*/
+#videoBG {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+
+.menu-principal {
+    height: 60px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+}
+
+.header-1 {
+    padding-bottom: 16px;
+    height: 60px;
+  
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 60px;
+    float: left;
+}
+
+.menu ul li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    float: left;
+    padding-right: 20px;
+    
+}
+
+h1, h2, p, text {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    
+}
+.menu ul li p {
+    padding-right: 20px;
+    
+}
+
+
+.home-page{
+    padding-top: 150px;
+}
+
+.outdoor{
+    width: auto;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    background-color:rgba(255, 255, 255, 0.096);
+}
+
+
+.portifolio1 {
+    padding-top: 80px;
+    display: flex;
+}
+
+.portifolio-text1 {
+    width: 60%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    border-width: 2px;
+    background-color:rgba(255, 255, 255, 0.096);
+}
+
+.portifolio-img1{
+    width: 40%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    border-width: 2px;
+    background-color:rgba(255, 255, 255, 0.164);
+    justify-content: center;
+}
+
+.portifolio2 {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.portifolio-text2{
+    width: 60%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.096);
+}
+
+.portifolio-img2{
+    width: 40%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.164);
+    justify-content: center;
+    
+}
+
+.portifolio3 {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.portifolio-text3 {
+    width: 60%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.096);
+}
+
+.portifolio-img3{
+    width: 40%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.164);
+    justify-content: center;
+}
+
+
+
+.dsc-pt1, .dsc-pt2, .dsc-pt3  {
+    text-align: left;
+    padding-left: 100px;
+}
+
+.button-all {
+    width: auto;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button1 {
+    background-color: rgba(255, 255, 255, 0.164); /* Green */
+    color: white;
+    padding: 15px 32px;
+    font-size: 30px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+  }
+
+  .footer{
+    background-color:rgba(255, 255, 255, 0.164);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.contact ul li {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.since{
+    padding-top: 40px;
+
+}
